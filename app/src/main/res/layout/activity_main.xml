@@ -26,10 +26,9 @@
         android:layout_height="wrap_content"
         flatui:fl_textAppearance="fl_none"
         flatui:fl_blockButtonEffectHeight="3dp"
-        flatui:fl_touchEffect="fl_ease"
+        flatui:fl_touchEffect="fl_ripple"
         flatui:fl_mainColor="@android:color/holo_red_light"
         android:layout_marginTop="5dp" />
-
 
     <com.ivo.flatbutton.FlatButton
         android:text="确认"
