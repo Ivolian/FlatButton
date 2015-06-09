@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fl_fontFamily" format="string" />
+    <attr name="fl_fontWeight" format="string" />
+    <attr name="fl_fontExtension" format="string" />
+    <attr name="fl_textAppearance" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_dark" value="1" />
+        <enum name="fl_light" value="2" />
+    </attr>
+
+    <attr name="fl_cornerRadius" format="dimension" />
+    <attr name="fl_borderWidth" format="dimension" />
+    <attr name="fl_size" format="dimension" />
+
+    <attr name="fl_touchEffect" format="integer">
+        <enum name="fl_none" value="0" />
+        <enum name="fl_ease" value="1" />
+        <enum name="fl_ripple" value="2" />
+    </attr>
+
+    <attr name="fl_dotMargin" format="dimension" />
+
+    <!-- FlatButton -->
+    <declare-styleable name="fl_FlatButton">
+        <attr name="fl_fontFamily" />
+        <attr name="fl_fontWeight" />
+        <attr name="fl_fontExtension" />
+        <attr name="fl_textAppearance" />
+        <attr name="fl_cornerRadius" />
+        <attr name="fl_touchEffect" />
+        <attr name="fl_mainColor" format="integer" />
+
+        <!-- Defines the height of the border bottom of the button -->
+        <attr name="fl_blockButtonEffectHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>
