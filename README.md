@@ -41,3 +41,7 @@ Example
         android:layout_marginTop="5dp" />
 
 ```
+
+Aar
+-----------
+https://github.com/Ivolian/FlatButton/blob/master/flatbutton.aar
