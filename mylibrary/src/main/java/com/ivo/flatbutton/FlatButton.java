@@ -75,7 +75,6 @@ public class FlatButton extends Button implements Attributes.AttributeChangeList
             int mainColor = a.getColor(R.styleable.fl_FlatButton_fl_mainColor, getResources().getColor(android.R.color.holo_blue_light));
             ArgbEvaluator argbEvaluator = new ArgbEvaluator();
 
-            // Actually darkerColor doesn't matter，but i won't change this.
             int darkerColor = (int) argbEvaluator.evaluate(0.8f, Color.parseColor("#000000"), mainColor);
             int darkColor = (int) argbEvaluator.evaluate(0.7f, Color.parseColor("#000000"), mainColor);
             int lightColor = (int) argbEvaluator.evaluate(0.3f, Color.parseColor("#ffffff"), mainColor);

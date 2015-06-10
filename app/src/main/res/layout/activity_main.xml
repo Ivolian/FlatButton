@@ -11,14 +11,14 @@
     tools:context=".MainActivity">
 
     <com.ivo.flatbutton.FlatButton
-        android:text="确认"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        flatui:fl_textAppearance="fl_none"
-        flatui:fl_blockButtonEffectHeight="3dp"
-        flatui:fl_touchEffect="fl_ease"
-        flatui:fl_mainColor="@android:color/holo_blue_light"
-        android:layout_marginTop="5dp" />
+    android:text="确认"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    flatui:fl_textAppearance="fl_none"
+    flatui:fl_blockButtonEffectHeight="3dp"
+    flatui:fl_touchEffect="fl_ease"
+    flatui:fl_mainColor="@android:color/holo_blue_light"
+    android:layout_marginTop="5dp" />
 
     <com.ivo.flatbutton.FlatButton
         android:text="确认"
@@ -34,6 +34,39 @@
         android:text="确认"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        flatui:fl_textAppearance="fl_none"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_touchEffect="fl_ease"
+        flatui:fl_mainColor="@android:color/holo_green_light"
+        android:layout_marginTop="5dp" />
+
+    <com.ivo.flatbutton.FlatButton
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        flatui:fl_textAppearance="fl_none"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_touchEffect="fl_ease"
+        flatui:fl_mainColor="@android:color/holo_blue_light"
+        android:layout_marginTop="5dp" />
+
+    <com.ivo.flatbutton.FlatButton
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        flatui:fl_textAppearance="fl_none"
+        flatui:fl_blockButtonEffectHeight="3dp"
+        flatui:fl_touchEffect="fl_ripple"
+        flatui:fl_mainColor="@android:color/holo_red_light"
+        android:layout_marginTop="5dp" />
+
+    <com.ivo.flatbutton.FlatButton
+        android:text="确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
         flatui:fl_textAppearance="fl_none"
         flatui:fl_blockButtonEffectHeight="3dp"
         flatui:fl_touchEffect="fl_ease"
